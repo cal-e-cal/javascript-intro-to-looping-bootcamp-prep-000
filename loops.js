@@ -14,4 +14,5 @@ function whileLoop (testNum) {
   console.log(testNum);
   --testNum;
   }
+  return 'done';
 }
