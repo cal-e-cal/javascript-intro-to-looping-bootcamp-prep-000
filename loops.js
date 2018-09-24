@@ -24,7 +24,6 @@ function doWhileLoop (testArray) {
   }
   do {
     testArray.pop; 
-    incrementVariable();
   } while (testArray.length > 0 && incrementVariable === 'true');
   return testArray;
 }
