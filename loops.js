@@ -16,3 +16,12 @@ function whileLoop (testNum) {
   }
   return 'done';
 }
+
+function doWhileLoop (testArray) {
+  function incrementVariable () {
+    i = i+1; 
+  }
+  do {
+    testArray.un
+  } while (testArray.length > 0 && incrementVariable === 'true');
+}
